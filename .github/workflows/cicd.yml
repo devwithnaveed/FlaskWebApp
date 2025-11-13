@@ -23,7 +23,7 @@ jobs:
       - name: List Files
         run: |
           echo "Naveed is learning"
-
+          ls -la
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
