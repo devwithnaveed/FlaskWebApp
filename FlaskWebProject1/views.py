@@ -39,8 +39,8 @@ def about():
 def about():
     """Renders the Naveed's Page."""
     return render_template(
-        'Naveed_Riaz.html',
-        title='NaveedRiaz',
+        'naveed_riaz.html',
+        title='Naveed Riaz',
         year=datetime.now().year,
         message='Your application description page.'
     )
