@@ -35,7 +35,7 @@ def about():
         year=datetime.now().year,
         message='Your application description page.'
     )
-@app.route('/Naveed_Riaz')
+@app.route('/naveed_riaz')
 def about():
     """Renders the Naveed's Page."""
     return render_template(
